@@ -1,0 +1,67 @@
+{
+  "name": "generic-nav",
+  "version": "1.0.1",
+  "description": "React component that displays a countdown/countup timer.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode development",
+    "build": "webpack -p --mode production"
+  },
+  "author": "Rene Fernandez",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-babel": "^5.2.1",
+    "eslint-plugin-class-property": "^1.1.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "file-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.2",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "node-sass": "^4.10.0",
+    "prop-types": "^15.6.2",
+    "react-bootstrap": "^0.32.4",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^7.1.0",
+    "save": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renefs/react-timer-component.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "timer",
+    "es6",
+    "javascript"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renefs/react-timer-component/issues"
+  },
+  "homepage": "https://github.com/renefs/react-timer-component#readme"
+}

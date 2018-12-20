@@ -1,0 +1,259 @@
+/** sass/scss/less code */
+.wagerAndHandicappingWrapper .leftNavFixed {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
+  position: fixed;
+  background: #fff;
+  width: 255px;
+  top: 152px;
+  z-index: 99;
+  bottom: 0;
+}
+.wagerAndHandicappingWrapper ul {
+  padding-left: 0;
+}
+.wagerAndHandicappingWrapper .handicappingNavContainer {
+  padding: 0;
+}
+.wagerAndHandicappingWrapper .mCSB_container,
+.wagerAndHandicappingWrapper .mCSB_container.mCS_y_hidden {
+  margin-right: 16px;
+}
+.wagerAndHandicappingWrapper .trackHandicappingCategory {
+  justify-content: space-between;
+}
+.wagerAndHandicappingWrapper .collapseDownMinus,
+.wagerAndHandicappingWrapper .collapseUpPlus {
+  width: 14px;
+  height: 14px;
+}
+.wagerAndHandicappingWrapper .favoriteStar {
+  width: 16px;
+  margin: 3px 6px 0 0;
+  fill: #ffc600;
+  cursor: pointer;
+}
+.wagerAndHandicappingWrapper .favoriteStar.unFavoriteStar {
+  fill: none;
+}
+.wagerAndHandicappingWrapper .favoriteStar.unFavoriteStar .unChecked {
+  stroke: #06c;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer {
+  overflow: auto;
+  height: calc(100% - 60px);
+  padding-left: 10px;
+  position: relative;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion a {
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: 'Titillium Web',sans-serif;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.4;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li {
+  margin-bottom: 15px;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .wagerCard {
+  border: 1px solid #0066cc;
+  padding: 6px 10px 6px 12px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .wagerCard:first-of-type {
+  margin-top: 12px;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackMtpWrapper {
+  align-items: center;
+  flex: 1 0 auto;
+  justify-content: flex-end;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .timeLeft {
+  color: #ec1c24 !important;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackName {
+  font-size: 21px;
+  line-height: 1;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .firstWord {
+  font-family: 'Titillium Web',sans-serif;
+  font-weight: 600;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .fullTrackName,
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackName {
+  font-family: 'Titillium Web', sans-serif;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .fullTrackName {
+  font-size: 11px;
+  line-height: 1;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .clockIcon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid;
+  color: inherit;
+  margin-right: 5px;
+  position: relative;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .clockIcon::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-width: 0 0 1px 1px;
+  border-style: solid;
+  border-color: inherit;
+  top: 5px;
+  right: 5px;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackMtp {
+  font-size: 18px;
+  color: inherit;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackMtp.firstLetter {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackMtpAndTrackName {
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: start;
+  color: #000;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackNameAndStarWrappper {
+  align-items: start;
+  flex: 1 0 50%;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackNameWrapper {
+  flex-direction: column;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackLoc {
+  font-size: 11px;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 600;
+  color: #000;
+  line-height: 1.2;
+  margin-bottom: 0;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackInfo {
+  margin-bottom: 6px;
+  color: #000;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackInfo span {
+  font-size: 11px;
+  font-family: 'Titillium Web',sans-serif;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackInfo span::after {
+  content: "|";
+  margin: 0 3px;
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackInfo span:last-of-type::after {
+  content: "";
+}
+.wagerAndHandicappingWrapper .leftNavWageringContainer .wageringAccordion li .trackFave {
+  margin-bottom: 0;
+  font-size: 11px;
+  color: #000;
+  font-family: 'Titillium Web',sans-serif;
+}
+.wagerAndHandicappingWrapper .wageringAndInfoTabs {
+  margin: 15px 10px;
+}
+.wagerAndHandicappingWrapper .wageringAndInfoTabs li {
+  flex: 1;
+}
+.wagerAndHandicappingWrapper .wageringAndInfoTabs a {
+  font-size: 12px;
+  font-family: 'Titillium Web',sans-serif;
+  font-weight: 400;
+  border: 1px solid #0066cc;
+  text-align: center;
+}
+.wagerAndHandicappingWrapper .wageringAndInfoTabs a.active {
+  background: #0066cc;
+  color: #fff;
+}
+.wagerAndHandicappingWrapper .LeftNavWageringContainer .mCSB_draggerContainer .mCSB_draggerRail,
+.wagerAndHandicappingWrapper .LeftNavWageringContainer .mCSB_draggerContainer .mCSB_dragger_bar,
+.wagerAndHandicappingWrapper .LeftNavWageringContainer .mCSB_draggerContainer:hover .mCSB_dragger {
+  background: transparent;
+}
+.wagerAndHandicappingWrapper .collapseIcon {
+  position: relative;
+  width: 15px;
+  margin-top: 5px;
+}
+.wagerAndHandicappingWrapper .collapseIcon:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #ccc;
+  position: absolute;
+  transform: rotate(45deg);
+  transition: trasnform .3s;
+}
+.wagerAndHandicappingWrapper .collapseActive:before {
+  transform: rotate(-135deg);
+}
+.loaderBackground {
+  background: #fff;
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.loader {
+  width: 150px;
+  height: 80px;
+  z-index: 51;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: url("https://ik.imagekit.io/h1gntnbx4/loader_BJJ6CZlgV_HyGCQ9E-xV.gif");
+  background-size: 150px 80px;
+}
+@media only screen and (max-width: 1200px) {
+  .homepageWrapper {
+      margin-top: 150px;
+  }
+  .homepageWrapper .wagerAndHandicappingWrapper {
+      flex: 0;
+  }
+  .homepageWrapper .wagerAndHandicappingWrapper .leftNavFixed {
+      left: 0;
+  }
+  .wagerAndHandicappingWrapper.showLeftNav:after {
+    content: "";
+    position: fixed;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .6;
+    z-index: 99;
+  }
+  .drf-nav-leftNavOpened .wagerAndHandicappingWrapper.showLeftNav .leftNavFixed {
+    transform: translateX(0%);
+    z-index: 9999;
+    top: 50px;
+  }
+  .leftNavFixed {
+    transform: translateX(-100%);
+    transition: transform 500ms;
+  }
+}

@@ -1,0 +1,1098 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700');
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.drfNavRegLink {
+  padding: 0 40px;
+  width: 100%;
+}
+
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.drfNavigationWrap ul {
+  list-style-type: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.drfNavigationWrap {
+ position: fixed !important; /*important to override position: absolute coming from drfNavMenuOpen  which is not needed */
+ top: 0;
+ z-index: 98;
+ width: 100%;
+ background: #fff;
+ left: 0;
+ right: 0;
+ max-width: 1349px;
+ margin: 0 auto;
+}
+.drfNavLoginRegWrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  overflow: auto;
+}
+
+.drfNavPrimaryNavWrap {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.16);
+}
+.drfNavPrimaryNavWrap h1 {
+  margin: 0;
+}
+.drfNavPrimaryNavWrap h1 a,
+.drfNavHamburgerMenuHead a {
+  display: block;
+  width: 111px;
+  height: 60px;
+}
+.drfNavMainNavigation {
+  margin: 0 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 auto;
+  padding: 0;
+}
+.drfNavMainNavigation li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.drfNavMainNavigation li a {
+  font-size: 15px;
+  line-height: 17px;
+  cursor: pointer;
+  color: #666;
+  font-family: 'Titillium Web', sans-serif;
+}
+.drfNavMainNavigation li a:hover {
+  color: #000;
+}
+.drfNavMainNavigation li.active a {
+  font-weight: 600;
+  color: #19345E;
+}
+.drfNavHamburgerWrap .drfNavHamburger {
+  margin: 8px 0;
+}
+.drfNavHamburgerWrap .drfNavHamburger,
+.drfNavHamburgerWrap .drfNavHamburger:after,
+.drfNavHamburgerWrap .drfNavHamburger:before {
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #707070;
+  content: " ";
+}
+.drfNavHamburgerWrap .drfNavHamburger:before {
+  position: relative;
+  top: -7px;
+}
+.drfNavHamburgerWrap .drfNavHamburger:after {
+  position: relative;
+  top: 5px;
+}
+.drfNavigationWrap .drfNavHamburgerWrap,
+.drfNavigationWrap .drfNavUserInitial div,
+.drfNavigationWrap .drfNavUserInitial span,
+.drfNavUserProfileWrap,
+.drfNavBalanceWrap {
+  display: inline-block;
+  vertical-align: middle;
+}
+.drfNavUserProfileWrap {
+  position: relative;
+}
+.drfNavRightSection {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.divider {
+  position: relative;
+  margin: 0 28px 0 40px;
+  height: 33px;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  border: 1px solid #ccc;
+  height: 100%;
+}
+.drfNavRightSection .drfNavHeaderBtn,
+.drfNavLoginRegCnt .drfNavHeaderBtn {
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+  background: #ec1c24;
+  font-size: 14px !important;
+  height: auto;
+  padding: 6px 12px;
+  line-height: 21px;
+}
+.drfNavRightSection .drfNavHeaderBtn:hover {
+  color: #fff;
+}
+.drfNavRightSection .drfNavHeaderBtn {
+  line-height: 26px;
+}
+.drfNavSubMenuListing .drfNavHamburgerMenuList,
+.drfNavBetsProfileMenu ul,
+.drfNavUserProfileWrap .drfNavUserProfileList,
+.drfNavSecondaryNavCnt ul {
+  padding-left: 0;
+  list-style: none;
+}
+.drfNavSecondaryNav {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.drfNavSecondaryNavCnt,
+.drfNavSubHeader {
+  text-align: center;
+}
+.drfNavSubHeader {
+  font-family: 'Alfa Slab One', sans-serif;
+  margin: 0;
+  font-size: 28px;
+  line-height: 1;
+  padding: 15px 0 10px;
+}
+.drfNavSecondaryNav li {
+  display: inline-block;
+}
+.drfNavSecondaryNav li a {
+  color: #fff !important;
+  padding: 10px 28px;
+  cursor: pointer;
+  display: block;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: .4px;
+}
+.drfNavSecondaryNav li.active a {
+  background: #f8f8f8;
+  color: #19345e !important;
+}
+.drfNavigationWrap .drfNavUserInitial div {
+  padding: 8px;
+  cursor: pointer;
+}
+.drfNavigationWrap .drfNavUserInitial span {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #666;
+  color: #666;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  border-radius: 100%;
+  text-align: center;
+  margin-right: 5px;
+  font-family: 'Titillium Web', sans-serif;
+}
+.drfNavigationWrap .drfNavUserInitial i {
+  width: 0;
+  height: 0;
+  display: block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #666;
+}
+.drfNavigationWrap .drfNavUserInitial.active i {
+  border-top: 0;
+  border-bottom: 5px solid #666;
+}
+.drfNavUserProfileWrap .drfNavUserProfileList {
+  position: absolute;
+  width: 230px;
+  background: #fff;
+  top: 51px;
+  right: -11px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.drfNavUserProfileWrap .drfNavUserProfileList li {
+  border-bottom: 1px solid #ccc;
+}
+.drfNavUserProfileWrap .drfNavUserProfileList a {
+  padding: 10px;
+  font-size: 14px;
+  display: block;
+  line-height: 16px;
+  font-family: 'Titillium Web',sans-serif;
+  color: #000;
+}
+.drfNavUserProfileWrap .drfNavUserProfileList a:hover {
+  background: #f7f7f7;
+}
+.drfNavBalanceWrap {
+  margin-right: 15px;
+}
+.drfNavBalanceWrap a span, .drfNavBalanceWrap a i,
+.drfNavBalanceInfo .drfNavBalCopy, .drfNavBalanceInfo .drfNavPlusIcon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.drfNavBalanceWrap a .drfNavBalCopy,
+.drfNavBalanceInfo .drfNavBalCopy {
+  margin-right: 2px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666;
+}
+.drfNavBalanceWrap a i,
+.drfNavBalanceInfo i {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+}
+.drfNavBalanceWrap span,
+.drfNavBalanceWrap a {
+  display: block;
+  font-family: 'Titillium Web', sans-serif;
+}
+.drfNavBalanceWrap .drfNavBalAmt,
+.drfNavBalanceInfo .drfNavBalAmt {
+  color: #005bf0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+.drfNavBalanceWrap a,
+.drfNavBalanceInfo .drfNavBalCopy {
+  font-size: 12px;
+  line-height: 14px;
+  color: #666
+}
+.drfNavAccountInfo span,
+.drfNavBalanceInfo span {
+  display: block;
+  word-break: break-word;
+  font-family: 'Titillium Web',sans-serif;
+}
+.drfNavAccountInfo a {
+  pointer-events: none;
+}
+.drfNavAccountInfo span:first-child,
+.drfNavBalanceInfo span:first-child {
+  line-height: 20px;
+}
+.drfNavBetsProfileMenu ul li:last-child {
+  border-bottom: none;
+}
+.drfNavBetsProfileMenu .drfNavRefresh {
+ background: url("https://ik.imagekit.io/h1gntnbx4/reload_S13btz21V_By1N5VWgN.svg") no-repeat;
+ width: 20px;
+ height: 20px;
+ background-size: 100% 100%;
+ cursor: pointer;
+}
+.drfNavBetsProfileMenu .drfNavBalanceAmtWrap {
+ margin-right: 10px;
+}
+.drfNavBetsProfileMenu .drfNavBalanceAmtWrap,
+.drfNavBetsProfileMenu .drfNavRefresh {
+ vertical-align: middle;
+ display: inline-block;
+}
+/* Hamburger Menu: Start */
+.drfNavLoginRegWrap::after,
+.drfNavHamburgerMenuWrap  .drfNavHamburgerMenu::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,.5);
+  z-index: -1;
+}
+
+.drfNavHamburgerMenuWrap {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+.drfNavOverlay {
+  background: #000;
+  opacity: 0.7; 
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+}
+
+.drfNavLoginRegCnt {
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.drfNavLoginRegCnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+}
+
+.drfNavHamburgerMenuWrap  .drfNavHamburgerMenu {
+  background: #fff;
+  overflow: auto;
+}
+.drfNavHamburgerMenuCnt {
+  display: table;
+  width: 80%;
+  padding: 80px 0 20px;
+  margin: 0 auto;
+  background: #fff
+}
+.drfNavHamburgerMenuCnt .drfNavMenuCntList {
+  display: table-row;
+}
+.drfNavHamburgerMenuCnt .drfNavMenuCntList .drfNavSubMenuListing {
+  display: table-cell;
+  width: 25%;
+  vertical-align: top;
+  padding-left: 30px;
+  padding-bottom: 90px;
+}
+.drfNavMenuCntList .drfNavSubMenuListing:first-child,
+.drfNavMenuCntList:last-child .drfNavSubMenuListing:last-child {
+  padding-left: 0;
+}
+.drfNavMenuCntList:last-child .drfNavSubMenuListing:last-child .drfNavSubMenuListInfo,
+.drfNavMenuCntList:last-child .drfNavSubMenuListing:last-child .drfNavHamburgerMenuList {
+  padding-left: 30px;
+  border-left: 2px solid #000;
+}
+.drfNavMenuCntList:last-child .drfNavSubMenuListing {
+  padding-bottom: 0;
+}
+.drfNavHamburgerMenuCnt .drfNavMenuCntList div h3 {
+  font-family: 'Alfa Slab One', sans-serif;
+  color: #19345e;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0 0 13px 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.drfNavHamburgerMenuCnt .drfNavMenuCntList li a {
+  font-size: 15px;
+  line-height: 30px;
+  color: #666;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: 'Titillium Web', sans-serif;
+}
+.drfNavHamburgerMenuCnt .drfNavMenuCntList li a:hover,
+.drfNavHamburgerMenuCnt .drfNavMenuCntList li a:active {
+  color: #005bf0;
+  text-decoration: none;
+}
+.drfNavHamburgerMenuCnt .drfNavHamburgerSubMenuList {
+  margin-left: 20px;
+}
+.drfNavHamburgerMenuCnt .drfNavHamburgerSubMenuList li a {
+  font-size: 13px;
+}
+.drfNavMenuClose {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  padding: 12px;
+  position: relative;
+  display: block;
+}
+.drfNavMenuClose:after,
+.drfNavMenuClose:before {
+  content: '';
+  height: 24px;
+  border-left: 2px solid #707070;
+  position: absolute;
+  top: 0;
+}
+.drfNavMenuClose:after {
+  transform: rotate(45deg);
+}
+.drfNavMenuClose:before {
+  transform: rotate(-45deg);
+}
+/* Hamburger Menu: End */
+
+/* Login / Register Modal: Start */
+.drfNavLoginRegCnt {
+  width: 624px;
+}
+.drfNavLoginRegCnt .drfNavRegWrap,
+.drfNavLoginRegCnt .drfNavLoginWrap {
+  width: 50%;
+  position: relative;
+  height: 400px;
+  background: #fff
+}
+.drfNavLoginRegCnt .drfNavRegWrap {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(https://ik.imagekit.io/h1gntnbx4/login-register-modal-background_BkwEQJVkN__1__HklGVcVbxV.jpg);
+  text-align: center;
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+}
+.drfNavLoginRegCnt .drfNavRegWrap h4 {
+  font-size: 22px;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.drfNavLoginRegCnt .drfNavRegWrap p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 0 40px;
+}
+.drfNavLoginRegCnt .drfNavRegWrap li {
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.drfNavLoginRegCnt .drfNavHeaderBtn {
+  width: 252px;
+  bottom: 33px;
+  position: absolute;
+  left: 30px;
+  line-height: 26px;
+}
+.drfNavLoginRegCnt .drfNavLoginWrap {
+  padding: 30px 33px;
+}
+.drfNavLoginRegCnt .drfNavLoginWrap.drfNavGeneralLogin {
+  padding: 35px 0;
+}
+.drfNavLoginRegCnt .drfNavLoginWrap h4 {
+  font-size: 20px;
+  line-height: 23px;
+  color: #666;
+  font-weight: 600;
+  padding: 0 45px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Titillium Web', sans-serif;
+}
+.drfNavLoginRegCnt .drfNavLoginWrap .form-control {
+  border: none;
+  border-radius: 0;
+  padding: 4px 5px;
+  font-size: 13px;
+  line-height: 24px;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.drfNavLoginRegCnt .drfNavLoginWrap .drfNavErrMsg {
+  color: #f30707;
+  font-size: 11px;
+  line-height: 13px;
+  display: block;
+  margin-top: 5px;
+}
+.drfNavLoginRegCnt .drfNavLoginWrap .drfNavForgotPassLink,
+.drfNavLoginRegCnt .drfNavLoginWrap .drfNavRegLink {
+  font-size: 13px;
+  line-height: 15px;
+  color: #666;
+  text-decoration: underline;
+}
+.drfNavLoginRegCnt .drfNavLoginWrap .drfNavRegLink {
+  text-decoration: none;
+  display: none;
+}
+.drfNavLoginWrap .drfNavRegLink a {
+  color: #ec1c24;
+}
+.drfNavLoginRegCnt .drfNavMenuClose {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  top: 0;
+}
+/* Login / Register Modal: End */
+.drfNavigationWrap .drfNavDesktop {
+  display: block;
+}
+.drfNavigationWrap .drfNavHamburgerWrap.drfNavDesktop {
+  display: inline-block;
+  cursor: pointer;
+} 
+.drfNavigationWrap .drfNavMobile,
+.drfNavigationWrap .drfNavHamburgerWrap.drfNavMobile {
+  display: none;
+}
+
+.drfNavHamburgerMenuHead {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  background: #fff;
+  margin: 0 auto;
+}
+.openPopUp,
+.drf-nav-leftNavOpened {
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+}
+.openPopUp{
+  left: 0;
+  right: 0;
+}
+.drfNavPrimaryNavWrap {
+  display: flex;
+  align-items: center;
+}
+.drfNavBalanceInfo {
+  display: none;
+}
+.popUps .drfNavHamburgerMenuHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .popUps .drfNavHamburgerMenuHead .drfNavMenuClose{
+  margin-right: 20px;
+}
+ .popUps .drfNavLoginRegCnt .drfNavMenuClose {
+  margin: 15px 15px 0 0;
+}
+/*Popup styling*/
+.raceCardPopUp {
+  font-family: 'Titillium Web',sans-serif;
+}
+.raceCardPopUp .modal .modal-header .modal-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+.modal-body .popUpCnt {
+  font-size: 14px;
+  color: #000;
+  font-family: 'Titillium Web',sans-serif;
+}
+.modal-body .popUpCnt .planActivateTitle {
+  font-size: 18px;
+  line-height: 1.33;
+  color: #000;
+  font-weight: 600;
+  font-family: 'Titillium Web',sans-serif;
+}
+.modal-body .popUpCnt .planActivateTitle .planOptionFormWrap{ 
+  padding-top: 20px;
+}
+.modal-body .popUpCnt .planActivateTitle .planOptionFormWrap .planOptionsTitle {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #666666;
+  font-family: 'Arial',sans-serif;
+}
+.planOptionsForm .planOptionsfield {
+  display: flex;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccdefc;
+  padding: 12px;
+  margin-bottom: 7px
+}
+.planOptionsForm .planOptionsfield .radiowrap {
+  float: left;
+}
+.planOptionsForm .planOptionsfield .radiowrap .planOptionsRadio {
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+.planOptionsForm .planOptionsfield .radiowrap .planOptionsRadio svg {
+  width: 24px;
+  height: 24px;
+  fill: #005bf0;
+}
+.planOptionsForm .planOptionsfield .planOptionsLabel {
+  cursor: pointer;
+  font-weight: normal;
+  vertical-align: middle;
+  padding-left: 10px;
+  margin: 0;
+}
+.planOptionsForm .planOptionsfield .planOptionsLabel span {
+  display: block;
+}
+.planOptionsForm .planOptionsfield .planOptionsLabel span.labelText {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  font-family: 'Titillium Web',sans-serif;
+  font-weight: 600;
+}
+.planOptionsForm .planOptionsfield .planOptionsLabel span.planPrice {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ec1c24;
+  font-weight: 660;
+  font-family: 'Titillium Web',sans-serif;
+  display: inline-block;
+}
+.planOptionsForm .planOptionsfield .planOptionsLabel span.planPrice > span {
+  font-size: 13px;
+  line-height: 12px;
+  color: #66aa22;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+.planOptionsfield .planOptionsNote {
+  font-size: 13px;
+  line-height: 18px;
+  color: #666666;
+  font-family: 'Arial',sans-serif;
+  display: block;
+  padding: 5px 0 0 10px;
+}
+.planOptionsfield .planOptionsNote .icon.iconSvg-radio {
+  display: block;
+}
+
+.raceCardPopUp .modal-header .modal-title {
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.raceCardPopUp .raceCardBtns button {
+  border: 0;
+  border-radius: 2px;
+  background-color: #005bf0;
+  text-align: center;
+  width: 160px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.raceCardPopUp .raceCardBtns {
+  display: flex;
+}
+
+.raceCardPopUp .planOffers {
+  background: #fffddd;
+  margin-top: 10px;
+  border: 1px solid #ccdefc;
+  border-radius: 3px;
+  padding: 13px;
+}
+.raceCardPopUp .planOffers .planOffersTitle {
+  font-family: 16px;
+  line-height: 22px;
+  color: #ec1c24;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.raceCardPopUp .radiowrap .planOptionsRadio {
+  float: left;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.raceCardPopUp .radiowrap svg {
+  width: 24px;
+  height: 24px;
+  fill: #005bf0;
+}
+
+.raceCardPopUp .iconSvg-radio {
+  display: block;
+}
+
+.raceCardPopUp .iconSvg-radioSelected {
+  display: none;
+}
+
+.raceCardPopUp .planOptionsfield.active {
+  background: #eff5fe;
+}
+
+.raceCardPopUp .planOptionsfield.active .iconSvg-radioSelected {
+  display: block;
+}
+
+.raceCardPopUp .planOptionsfield.active .iconSvg-radio {
+  display: none;
+}
+
+.raceCardPopUp .planOptionFormWrap {
+  padding-top: 20px;
+}
+
+.raceCardPopUp .planOptionsTitle {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #666;
+  font-family: Arial,sans-serif;
+}
+.drfNavSubMenuListing.selected { 
+  border-left: none;
+}
+  /* Media Queries: Start */
+@media only screen and (max-width : 1199px) {
+  .pipe {
+    display: inline-block;
+    color: #fff;
+    height: 26px;
+    vertical-align: middle;
+  }
+  .drfNavHamburgerWrap .drfNavHamburger,
+  .drfNavHamburgerWrap .drfNavHamburger:after,
+  .drfNavHamburgerWrap .drfNavHamburger:before {
+    width: 28px;
+  }
+  .drfNavHamburgerWrap .drfNavHamburger:before {
+    top: -10px;
+  }
+  .drfNavHamburgerWrap .drfNavHamburger:after {
+    top: 8px;
+  }
+  .drfNavSubMenuListing.selected {
+    border-left: 2px solid #000;
+  }
+  .drf-nav-leftNavOpened .drfNavHamburgerWrap,
+  .drfNavigationWrap .drf-nav-leftNavOpened .drfNavHeaderBtn,
+  .drf-nav-leftNavOpened.drfNavleftSectionIcon {
+    visibility: hidden;
+  } 
+  .drfNavBalanceInfo {
+    display: inline-block;
+  }
+  .drfNavUserProfileWrap .drfNavUserProfileList .drfNavBalanceInfo a,
+  .drfNavBalanceInfo i {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .drfNavBalanceInfo a {
+    margin-right: 5px;
+  }
+  .drfNavBalanceInfo .drfNavRefresh {
+    background: url("https://ik.imagekit.io/h1gntnbx4/reload_S13btz21V_By1N5VWgN.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    cursor: pointer;
+  }
+  .divider, .drfNavBalanceWrap {
+    display: none;
+  }
+  .drfNavHamburgerMenuWrap  .drfNavHamburgerMenu {
+    top: 50px;
+  }
+  /* Main Navigation Header: Start */
+  .drfNavigationWrap .drfNavDesktop,
+  .drfNavigationWrap .drfNavHamburgerWrap.drfNavDesktop {
+    display: none;
+  }
+  .drfNavigationWrap .drfNavMobile {
+    display: block;
+  }
+  .drfNavigationWrap .drfNavHamburgerWrap.drfNavMobile {
+    display: block;
+    margin: 0 15px;
+  }
+  .drfNavUserProfileWrap .drfNavUserProfileList {
+    top: 46px;
+  }
+  .drfNavMenuCntList:last-child .drfNavSubMenuListing:last-child {
+    padding-left: 7px;
+  }
+  .drfNavMenuCntList:last-child .drfNavSubMenuListing:last-child .drfNavSubMenuListInfo,
+  .drfNavMenuCntList:last-child .drfNavSubMenuListing:last-child .drfNavHamburgerMenuList {
+    padding-left: 0;
+    border-left: none;
+  }
+  .drfNavPrimaryNavWrap h1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .drfNavPrimaryNavWrap h1 a {
+    width: 92px;
+    height: 50px;
+  }
+  .drfNavigationWrap.drfNavMenuOpen .drfNavPrimaryNavWrap {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  }
+  .drfNavigationWrap.drfNavMenuOpen .drfNavRightSection .drfNavOverlay {
+    display: none;
+  }
+  .drfNavleftSectionIcon {
+    background: url(https://ik.imagekit.io/h1gntnbx4/clock_SykG7yEyN_HJ07c4bg4.svg) 0 0 no-repeat;
+    min-width: 27px;
+    min-height: 27px;
+    margin: 0 15px;
+  }
+  .drfNavleftSectionIcon {
+    display: block;
+  }
+  .drfNavUserProfileWrap {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .drfNavRightSection.drfNavLoggedIn {
+    padding: 5px 11px 5px 0;
+  }
+  .drfNavSecondaryNavCnt ul {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .drfNavSecondaryNav li a {
+    position: relative;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 600;
+    padding: 9px 18px 10px;
+  }
+  .drfNavSecondaryNav li a::before {
+    content: " ";
+    position: absolute;
+    width: 1px;
+    background: #fff;
+    opacity: 0.2;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+  }
+  .drfNavSecondaryNav li.active a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+    right: 18px;
+    border-bottom: 4px solid #fff; 
+  }
+  .drfNavSecondaryNav li:last-child a:after {
+    background: transparent;
+  }
+  .drfNavSecondaryNav li.active a,
+  .drfNavSecondaryNav li:hover a {
+    background: transparent;
+    color: #fff;
+  }
+  .drfNavSecondaryNav li.active a,
+  .drfNavSecondaryNav li:hover a {
+    color: #fff !important;
+  }
+  /* Main Navigation Header: End */
+
+  /* Hamburger Menu: Start */
+
+
+  .drfNavHamburgerMenuWrap .drfNavHamburgerMenu,
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList .drfNavSubMenuListing {
+    width: 100%;
+  }
+  .drfNavHamburgerMenu .drfNavHamburgerMenuCnt {
+    padding: 0 0 20px;
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .drfNavHamburgerMenu .drfNavHamburgerMenuCnt,
+  .drfNavHamburgerMenu .drfNavHamburgerMenuCnt .drfNavMenuCntList,
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList .drfNavSubMenuListing {
+    display: block;
+  }
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList .drfNavSubMenuListing {
+    padding: 16px 8px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList:first-child .drfNavSubMenuListing:first-child {
+    border-top: 1px solid #ccc;
+  }
+  .drfNavMenuCntList div h3 {
+    margin: 0;
+    float: left;
+  }
+  .drfNavSubMenuListInfo .drfNavArrow {
+    float: right;
+    border: solid #666;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 6px;
+    margin-right: 4px;
+    margin-top: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .drfNavSubMenuListing .drfNavHamburgerMenuList,
+  .drfNavHamburgerMenuWrap .drfNavOverlay,
+  .drfNavigationWrap .drfNavMainNavigation,
+  .drfNavHamburgerMenu .drfNavHamburgerMenuHead {
+    display: none;
+  }
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList .drfNavSubMenuListing.active .drfNavArrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList .drfNavSubMenuListing.active .drfNavHamburgerMenuList {
+    display: block;
+    margin-top: 10px;
+    padding-left: 15px;
+  }
+  .drfNavBetsProfileMenu ul li:last-child {
+    border-bottom: none;
+  }
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList div h3 {
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+  }
+  /* Hamburger Menu: End */
+  
+  /* Close Icon for left Nav: Start */
+  .leftNavClose {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    padding: 0 12px;
+    margin: 0 15px;
+  }
+  .leftNavClose:before,
+  .leftNavClose:after {
+    content: '';
+    height: 24px;
+    border-left: 2px solid #707070;
+    position: absolute;
+  }
+  .leftNavClose:before {
+    transform: rotate(-45deg)
+  }
+  .leftNavClose:after {
+    transform: rotate(45deg);
+  }
+  .drfNavHamburgerMenuWrap .drfNavHamburgerMenu::after{
+    content: "";
+    top: 50px;
+  }
+  .drfNavHamburgerMenuWrap {
+    top: 50px;
+    right: auto;
+    min-width: 300px;
+  }
+  /* Close Icon for left Nav: End */
+}
+
+@media only screen and (max-width : 767px) {
+  /* Main Navigation Header: Start */
+  .drfNavHamburgerMenuWrap {
+    width: 100%;
+  }
+  .drfNavSecondaryNav li a {
+    font-size: 17px;
+  }
+  .drfNavBalanceWrap {
+    display: none;
+  }
+  .drfNavBalanceInfo {
+    display: block;
+  }
+  .drfNavHamburgerMenuCnt .drfNavMenuCntList div h3 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .drfNavSubMenuListInfo .drfNavArrow {
+    margin-top: 5px;
+  }
+  .drfNavRightSection .drfNavHeaderBtn {
+    font-size: 12px !important;
+    line-height: 1.4;
+    padding: 6px;
+  }
+  /* Main Navigation Header: End */
+  /* Login / Register Modal: Start */
+  .drfNavLoginRegCnt {
+    width: 320px;
+  }
+  .drfNavLoginRegCnt  .drfNavRegWrap {
+    display: none;
+  }
+  .drfNavLoginRegCnt  .drfNavLoginWrap {
+    width: 100%;
+    height: auto;
+  }
+  .drfNavLoginWrap .drfNavForgotPassLink {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .drfNavLoginWrap .drfNavHeaderBtn {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .drfNavLoginRegCnt .drfNavLoginWrap .drfNavRegLink {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  /* Login / Register Modal: End */
+}
+
+@media only screen and (max-width : 320px) { /*media query for mobile protrait only iphone 5*/
+  .drfNavPrimaryNavWrap h1 {
+    margin: 0 8px;
+  } 
+}
+/* Media Queries: End */
