@@ -19,6 +19,5 @@ In another terminal:
 ```bash
 cd example
 npm i
-npm link simple-react-timer
 npm start
 ```
